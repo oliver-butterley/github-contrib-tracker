@@ -22,47 +22,55 @@ async function searchItems(octokit: Octokit, q: string): Promise<SearchItem[]> {
   return items;
 }
 
-export async function collectForUserRepo(
+export async function collectForRepo(
   octokit: Octokit,
-  user: string,
   owner: string,
   repo: string,
+  users: string[],
   since: string,
   bors = false,
 ): Promise<{ prItems: PrItem[]; issueItems: IssueItem[] }> {
   const repoKey = `${owner}/${repo}`;
-  const base = `repo:${repoKey}+author:${user}+created:>=${since}`;
+  // Multiple author: qualifiers are OR'd by GitHub search
+  const authorFilter = users.map((u) => `author:${u}`).join("+");
+  const base = `repo:${repoKey}+created:>=${since}+${authorFilter}`;
 
   const [rawPrs, rawIssues] = await Promise.all([
     searchItems(octokit, `${base}+type:pr`),
     searchItems(octokit, `${base}+type:issue`),
   ]);
 
-  const prItems: PrItem[] = rawPrs.map((item) => {
-    const nativeMerge = item.pull_request?.merged_at != null;
-    const borsMerge = bors && item.title.startsWith("[Merged by Bors]");
-    const merged = nativeMerge || borsMerge;
-    const state: PrItem["state"] = merged ? "merged" : item.state === "open" ? "open" : "closed";
-    return {
+  const userSet = new Set(users);
+
+  const prItems: PrItem[] = rawPrs
+    .filter((item) => userSet.has(item.user?.login ?? ""))
+    .map((item) => {
+      const nativeMerge = item.pull_request?.merged_at != null;
+      const borsMerge = bors && item.title.startsWith("[Merged by Bors]");
+      const merged = nativeMerge || borsMerge;
+      const state: PrItem["state"] = merged ? "merged" : item.state === "open" ? "open" : "closed";
+      return {
+        number: item.number,
+        title: borsMerge ? item.title.replace(/^\[Merged by Bors\] - /, "") : item.title,
+        url: item.html_url,
+        user: item.user?.login ?? "unknown",
+        repo: repoKey,
+        state,
+        createdAt: item.created_at.slice(0, 10),
+      };
+    });
+
+  const issueItems: IssueItem[] = rawIssues
+    .filter((item) => userSet.has(item.user?.login ?? ""))
+    .map((item) => ({
       number: item.number,
-      title: borsMerge ? item.title.replace(/^\[Merged by Bors\] - /, "") : item.title,
+      title: item.title,
       url: item.html_url,
       user: item.user?.login ?? "unknown",
       repo: repoKey,
-      state,
+      state: item.state === "open" ? "open" : "closed",
       createdAt: item.created_at.slice(0, 10),
-    };
-  });
-
-  const issueItems: IssueItem[] = rawIssues.map((item) => ({
-    number: item.number,
-    title: item.title,
-    url: item.html_url,
-    user: item.user?.login ?? "unknown",
-    repo: repoKey,
-    state: item.state === "open" ? "open" : "closed",
-    createdAt: item.created_at.slice(0, 10),
-  }));
+    }));
 
   return { prItems, issueItems };
 }

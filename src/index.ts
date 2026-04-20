@@ -3,7 +3,7 @@ import { throttling } from "@octokit/plugin-throttling";
 import { retry } from "@octokit/plugin-retry";
 import { execSync } from "node:child_process";
 import { loadConfig } from "./config.js";
-import { collectForUserRepo } from "./collector.js";
+import { collectForRepo } from "./collector.js";
 import { writeOutputs } from "./writer.js";
 import type { IssueItem, PrItem } from "./types.js";
 
@@ -44,22 +44,20 @@ async function main() {
   });
 
   const { since, users, repos } = config.tracking;
-  console.log(`Collecting data since ${since} for ${users.length} users across ${repos.length} repos...`);
+  console.log(`Collecting data since ${since} for ${users.length} users across ${repos.length} repos (${repos.length * 2} API calls)...`);
 
   const allPrItems: PrItem[] = [];
   const allIssueItems: IssueItem[] = [];
 
   for (const repo of repos) {
     const repoKey = `${repo.owner}/${repo.name}`;
-    for (const user of users) {
-      process.stdout.write(`  ${user} / ${repoKey} ... `);
-      const { prItems, issueItems } = await collectForUserRepo(
-        octokit, user, repo.owner, repo.name, since, repo.bors,
-      );
-      allPrItems.push(...prItems);
-      allIssueItems.push(...issueItems);
-      console.log(`${prItems.length} PRs, ${issueItems.length} issues`);
-    }
+    process.stdout.write(`  ${repoKey} ... `);
+    const { prItems, issueItems } = await collectForRepo(
+      octokit, repo.owner, repo.name, users, since, repo.bors,
+    );
+    allPrItems.push(...prItems);
+    allIssueItems.push(...issueItems);
+    console.log(`${prItems.length} PRs, ${issueItems.length} issues`);
   }
 
   const repoKeys = repos.map((r) => `${r.owner}/${r.name}`);
