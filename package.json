@@ -1,0 +1,27 @@
+{
+  "name": "github-contrib-tracker",
+  "version": "1.0.0",
+  "description": "Periodically collect GitHub contribution data and commit it as JSON/CSV/MD",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "collect": "tsx src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@fast-csv/format": "^5.0.5",
+    "@octokit/plugin-retry": "^7.1.4",
+    "@octokit/plugin-throttling": "^9.3.2",
+    "@octokit/rest": "^21.1.1",
+    "js-yaml": "^4.1.1"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.3"
+  }
+}

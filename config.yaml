@@ -1,0 +1,31 @@
+github:
+  api_url: https://api.github.com
+
+tracking:
+  since: "2025-07-01"
+
+  users:
+    - oliver-butterley
+    - truonghoangle
+    - MarkusFerdinandDablander
+    - a-dangelo
+    - Zhang-Liao
+    - mpenciak
+    - astefano
+    - faenuccio
+    - ChristianoBraga
+    - jinxinglim
+    - mkovaxx
+
+  repos:
+    - owner: AeneasVerif
+      name: aeneas
+    - owner: AeneasVerif
+      name: charon
+    - owner: leanprover
+      name: cslib
+    - owner: verus-lang
+      name: verus
+    - owner: leanprover-community
+      name: mathlib4
+      bors: true
