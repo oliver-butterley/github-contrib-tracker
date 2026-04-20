@@ -55,6 +55,9 @@ export async function collectForUserRepo(
   });
 
   const issueItems: IssueItem[] = rawIssues.map((item) => ({
+    number: item.number,
+    title: item.title,
+    url: item.html_url,
     user: item.user?.login ?? "unknown",
     repo: repoKey,
     state: item.state === "open" ? "open" : "closed",

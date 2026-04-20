@@ -119,6 +119,18 @@ function buildMarkdown(
         }
         lines.push(``);
       }
+
+      if (issues.length > 0) {
+        const sorted = [...issues].sort((a, b) => {
+          const order = { open: 0, closed: 1 };
+          return order[a.state] - order[b.state] || b.number - a.number;
+        });
+        lines.push(`**Issues:**`, ``);
+        for (const issue of sorted) {
+          lines.push(`- [#${issue.number} ${issue.title}](${issue.url}) — ${issue.user} — ${issue.state}`);
+        }
+        lines.push(``);
+      }
     }
   }
 

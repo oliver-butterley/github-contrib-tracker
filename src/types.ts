@@ -26,6 +26,9 @@ export interface PrItem {
 }
 
 export interface IssueItem {
+  number: number;
+  title: string;
+  url: string;
   user: string;
   repo: string; // "owner/name"
   state: "open" | "closed";
