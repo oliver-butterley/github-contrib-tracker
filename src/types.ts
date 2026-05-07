@@ -12,6 +12,7 @@ export interface Config {
     since: string; // YYYY-MM-DD fixed start date
     users: string[];
     repos: RepoSlug[];
+    exclude: ExcludeRule[];
   };
 }
 
@@ -33,6 +34,11 @@ export interface IssueItem {
   repo: string; // "owner/name"
   state: "open" | "closed";
   createdAt: string; // YYYY-MM-DD
+}
+
+export interface ExcludeRule {
+  repo: string;   // "owner/name"
+  user?: string;  // if set, only exclude items from this user
 }
 
 export interface CsvRow {

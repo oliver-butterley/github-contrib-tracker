@@ -2,6 +2,44 @@
 
 Generated: 2026-05-07  |  Data since: 2025-07-01
 
+## Summary
+
+### Q2 2026 (Apr–Jun 2026)
+
+| Repo | PRs opened | PRs merged | Issues opened | Issues closed |
+|------|----------:|----------:|-------------:|-------------:|
+| AeneasVerif/aeneas | 6 | 3 | 3 | 0 |
+| AeneasVerif/charon | 3 | 3 | 1 | 1 |
+| leanprover/cslib | 2 | 0 | 0 | 0 |
+| verus-lang/verus | 6 | 6 | 1 | 1 |
+| **Total** | **17** | **12** | **5** | **2** |
+
+### Q1 2026 (Jan–Mar 2026)
+
+| Repo | PRs opened | PRs merged | Issues opened | Issues closed |
+|------|----------:|----------:|-------------:|-------------:|
+| AeneasVerif/aeneas | 9 | 8 | 8 | 5 |
+| AeneasVerif/charon | 0 | 0 | 3 | 1 |
+| verus-lang/verus | 21 | 18 | 12 | 9 |
+| leanprover-community/mathlib4 | 3 | 3 | 1 | 0 |
+| **Total** | **33** | **29** | **24** | **15** |
+
+### Q4 2025 (Oct–Dec 2025)
+
+| Repo | PRs opened | PRs merged | Issues opened | Issues closed |
+|------|----------:|----------:|-------------:|-------------:|
+| AeneasVerif/aeneas | 0 | 0 | 2 | 2 |
+| AeneasVerif/charon | 0 | 0 | 2 | 2 |
+| verus-lang/verus | 4 | 4 | 0 | 0 |
+| **Total** | **4** | **4** | **4** | **4** |
+
+### Q3 2025 (Jul–Sep 2025)
+
+| Repo | PRs opened | PRs merged | Issues opened | Issues closed |
+|------|----------:|----------:|-------------:|-------------:|
+| leanprover-community/mathlib4 | 10 | 9 | 0 | 0 |
+| **Total** | **10** | **9** | **0** | **0** |
+
 ## Q2 2026 (Apr–Jun 2026)
 
 ### AeneasVerif/aeneas
@@ -147,19 +185,13 @@ PRs: **21 opened** · 18 merged · 3 closed  |  Issues: **12 opened** · 9 close
 
 ### leanprover-community/mathlib4
 
-PRs: **9 opened** · 5 merged · 0 closed  |  Issues: **1 opened** · 0 closed
+PRs: **3 opened** · 3 merged · 0 closed  |  Issues: **1 opened** · 0 closed
 
 **Pull requests:**
 
 - [#36966 chore: remove superfluous `clearExcept` call](https://github.com/leanprover-community/mathlib4/pull/36966) — oliver-butterley — merged
 - [#36961 chore(AlgebraicGeometry): remove use of `clear*-` from `isClosedMap_iff_specializingMap`](https://github.com/leanprover-community/mathlib4/pull/36961) — oliver-butterley — merged
 - [#36723 fix(`ClearExcept`): modify so that each `isAuxDecl` is retained](https://github.com/leanprover-community/mathlib4/pull/36723) — oliver-butterley — merged
-- [#35581 feat(RingTheory/MvPolynomial): MvPolynomial is isomorphic to the direct sum of its homogeneous submodules](https://github.com/leanprover-community/mathlib4/pull/35581) — mpenciak — merged
-- [#35505 doc: update README.md](https://github.com/leanprover-community/mathlib4/pull/35505) — faenuccio — merged
-- [#36559 feat(Analysis/Convex/Uniform): uniformly convex spaces using filters](https://github.com/leanprover-community/mathlib4/pull/36559) — faenuccio — open
-- [#36540 perf: personal grind test](https://github.com/leanprover-community/mathlib4/pull/36540) — faenuccio — open
-- [#34705 feat(RingTheory): Grassmannian functor](https://github.com/leanprover-community/mathlib4/pull/34705) — mpenciak — open
-- [#34186 feat(GroupTheory/SpecificGroups/Cyclic): a quotient of a cyclic group is cyclic](https://github.com/leanprover-community/mathlib4/pull/34186) — faenuccio — open
 
 **Issues:**
 
@@ -196,42 +228,15 @@ PRs: **4 opened** · 4 merged · 0 closed  |  Issues: **0 opened** · 0 closed
 - [#2033 refactor: cargo-verus to use clap and reorganize internals](https://github.com/verus-lang/verus/pull/2033) — mkovaxx — merged
 - [#2029 test: add integration tests for `cargo verus verify`](https://github.com/verus-lang/verus/pull/2029) — mkovaxx — merged
 
-### leanprover-community/mathlib4
-
-PRs: **4 opened** · 1 merged · 0 closed  |  Issues: **2 opened** · 0 closed
-
-**Pull requests:**
-
-- [#32491 doc(Analysis.Normed.Lp.LpEquiv): fix a typo and change two variables](https://github.com/leanprover-community/mathlib4/pull/32491) — faenuccio — merged
-- [#33134 feat(Normed/Module/WeakDual): add Goldstine lemma](https://github.com/leanprover-community/mathlib4/pull/33134) — faenuccio — open
-- [#32921 refactor Submodule.map](https://github.com/leanprover-community/mathlib4/pull/32921) — faenuccio — open
-- [#32305 feat: define Sobolev Spaces](https://github.com/leanprover-community/mathlib4/pull/32305) — faenuccio — open
-
-**Issues:**
-
-- [#33238 Add delaborator checking canonicity of instances](https://github.com/leanprover-community/mathlib4/issues/33238) — faenuccio — open
-- [#31330 Follow-up of #29447: two more imports to remove](https://github.com/leanprover-community/mathlib4/issues/31330) — faenuccio — open
-
 ## Q3 2025 (Jul–Sep 2025)
 
 ### leanprover-community/mathlib4
 
-PRs: **29 opened** · 22 merged · 4 closed  |  Issues: **0 opened** · 0 closed
+PRs: **10 opened** · 9 merged · 0 closed  |  Issues: **0 opened** · 0 closed
 
 **Pull requests:**
 
-- [#29728 feat(Topology/KrullDimension): add subspace dimension inequality](https://github.com/leanprover-community/mathlib4/pull/29728) — a-dangelo — merged
-- [#29644 chore(GroupWithZero/WithZero): reorganize variable names](https://github.com/leanprover-community/mathlib4/pull/29644) — faenuccio — merged
-- [#29033 feat(Analysis.LocallyConvex): a linear map is surjective iff its image contains a ball, or a closed ball, or a sphere](https://github.com/leanprover-community/mathlib4/pull/29033) — faenuccio — merged
-- [#28958 feat: add Nontrivial instance for linear maps](https://github.com/leanprover-community/mathlib4/pull/28958) — faenuccio — merged
-- [#28694 doc: correct NormedSpace.Dual to StrongDual](https://github.com/leanprover-community/mathlib4/pull/28694) — faenuccio — merged
-- [#28593 doc(MeasureTheory\Function\LpSeminorm\Defs.lean): remove extra prime](https://github.com/leanprover-community/mathlib4/pull/28593) — faenuccio — merged
-- [#28481 doc: improve doc strings for `Filter.liminf`, `Filter.limsup`](https://github.com/leanprover-community/mathlib4/pull/28481) — faenuccio — merged
-- [#28479 doc(MeasureTheory.Function.EssSup): fix broken link](https://github.com/leanprover-community/mathlib4/pull/28479) — faenuccio — merged
-- [#27035 chore(IsManifold/Basic): replace continuity by fun_prop](https://github.com/leanprover-community/mathlib4/pull/27035) — faenuccio — merged
 - [#27008 feat(MeasureTheory): add `MeasurePreserving.integrable_comp_of_integrable`](https://github.com/leanprover-community/mathlib4/pull/27008) — oliver-butterley — merged
-- [#26980 feat(Algebra/GroupWithZero/WithZero): add lemma map'_surjective_iff](https://github.com/leanprover-community/mathlib4/pull/26980) — faenuccio — merged
-- [#26872 chore(RingTheory/Valuation/RankOne): modify the definition of Valuation.RankOne using its range rather than its codomain](https://github.com/leanprover-community/mathlib4/pull/26872) — faenuccio — merged
 - [#26853 feat(Mathlib/MeasureTheory/MeasurableSpace/Invariants): add `comp_eq_of_measurable_invariants`](https://github.com/leanprover-community/mathlib4/pull/26853) — oliver-butterley — merged
 - [#26852 feat(Mathlib/Order/Filter/Basic): add `EventuallyEq.mul_left` and `...right`](https://github.com/leanprover-community/mathlib4/pull/26852) — oliver-butterley — merged
 - [#26851 feat(Algebra/Order): add several lemmas related to `partialSups`](https://github.com/leanprover-community/mathlib4/pull/26851) — oliver-butterley — merged
@@ -240,12 +245,4 @@ PRs: **29 opened** · 22 merged · 4 closed  |  Issues: **0 opened** · 0 closed
 - [#26840 feat(Mathlib/Dynamics/BirkhoffSum/Average): add 3 BirkhoffAverage lemmas](https://github.com/leanprover-community/mathlib4/pull/26840) — oliver-butterley — merged
 - [#26810 feat (Mathlib/Dynamics/BirkhoffSum/Basic): add lemma `birkhoffSum_of_comp_eq`](https://github.com/leanprover-community/mathlib4/pull/26810) — oliver-butterley — merged
 - [#26807 feat(Mathlib/Logic/Function/Iterate): add small lemma `iterate_invariant`](https://github.com/leanprover-community/mathlib4/pull/26807) — oliver-butterley — merged
-- [#26588 feat(Algebra/GroupWithZero/WithZero): add the multiplicative embedding with zero from the range](https://github.com/leanprover-community/mathlib4/pull/26588) — faenuccio — merged
-- [#26587 feat(RingTheory/Valuation/Discrete/Basic.lean): add Nontriviality instances for discrete valuations](https://github.com/leanprover-community/mathlib4/pull/26587) — faenuccio — merged
-- [#28693 feat(Analysis.Normed.Module.Milman-Pettis): add Milman-Pettis theorem](https://github.com/leanprover-community/mathlib4/pull/28693) — faenuccio — open
-- [#28631 feat(Data\Nat\ModEq.lean): add grind attribute to ModEq](https://github.com/leanprover-community/mathlib4/pull/28631) — faenuccio — open
 - [#26923 feat(Dynamics/BirkhoffSum): add the pointwise ergodic theorem (Birkhoff's)](https://github.com/leanprover-community/mathlib4/pull/26923) — oliver-butterley — open
-- [#29594 feat(Algebra.Order.GroupWithZero.WithZero): add multiplicativity](https://github.com/leanprover-community/mathlib4/pull/29594) — faenuccio — closed
-- [#26971 feat(Algebra/GroupWithZero/WithZero): add lemma map'_surjective_iff](https://github.com/leanprover-community/mathlib4/pull/26971) — faenuccio — closed
-- [#26669 chore: move BooleanAlgebra material on Function out of Data](https://github.com/leanprover-community/mathlib4/pull/26669) — faenuccio — closed
-- [#26589 feat(Algebra/GroupWithZero/Range): add withZeroUnitsHom](https://github.com/leanprover-community/mathlib4/pull/26589) — faenuccio — closed

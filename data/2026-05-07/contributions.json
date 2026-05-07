@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-07T08:42:58.490Z",
+  "generatedAt": "2026-05-07T13:19:17.476Z",
   "since": "2025-07-01",
   "prItems": [
     {
@@ -489,204 +489,6 @@
       "createdAt": "2026-03-16"
     },
     {
-      "number": 36559,
-      "title": "feat(Analysis/Convex/Uniform): uniformly convex spaces using filters",
-      "url": "https://github.com/leanprover-community/mathlib4/pull/36559",
-      "user": "faenuccio",
-      "repo": "leanprover-community/mathlib4",
-      "state": "open",
-      "createdAt": "2026-03-12"
-    },
-    {
-      "number": 36540,
-      "title": "perf: personal grind test",
-      "url": "https://github.com/leanprover-community/mathlib4/pull/36540",
-      "user": "faenuccio",
-      "repo": "leanprover-community/mathlib4",
-      "state": "open",
-      "createdAt": "2026-03-12"
-    },
-    {
-      "number": 35581,
-      "title": "feat(RingTheory/MvPolynomial): MvPolynomial is isomorphic to the direct sum of its homogeneous submodules",
-      "url": "https://github.com/leanprover-community/mathlib4/pull/35581",
-      "user": "mpenciak",
-      "repo": "leanprover-community/mathlib4",
-      "state": "merged",
-      "createdAt": "2026-02-20"
-    },
-    {
-      "number": 35505,
-      "title": "doc: update README.md",
-      "url": "https://github.com/leanprover-community/mathlib4/pull/35505",
-      "user": "faenuccio",
-      "repo": "leanprover-community/mathlib4",
-      "state": "merged",
-      "createdAt": "2026-02-18"
-    },
-    {
-      "number": 34705,
-      "title": "feat(RingTheory): Grassmannian functor",
-      "url": "https://github.com/leanprover-community/mathlib4/pull/34705",
-      "user": "mpenciak",
-      "repo": "leanprover-community/mathlib4",
-      "state": "open",
-      "createdAt": "2026-02-02"
-    },
-    {
-      "number": 34186,
-      "title": "feat(GroupTheory/SpecificGroups/Cyclic): a quotient of a cyclic group is cyclic",
-      "url": "https://github.com/leanprover-community/mathlib4/pull/34186",
-      "user": "faenuccio",
-      "repo": "leanprover-community/mathlib4",
-      "state": "open",
-      "createdAt": "2026-01-21"
-    },
-    {
-      "number": 33134,
-      "title": "feat(Normed/Module/WeakDual): add Goldstine lemma",
-      "url": "https://github.com/leanprover-community/mathlib4/pull/33134",
-      "user": "faenuccio",
-      "repo": "leanprover-community/mathlib4",
-      "state": "open",
-      "createdAt": "2025-12-20"
-    },
-    {
-      "number": 32921,
-      "title": "refactor Submodule.map",
-      "url": "https://github.com/leanprover-community/mathlib4/pull/32921",
-      "user": "faenuccio",
-      "repo": "leanprover-community/mathlib4",
-      "state": "open",
-      "createdAt": "2025-12-15"
-    },
-    {
-      "number": 32491,
-      "title": "doc(Analysis.Normed.Lp.LpEquiv): fix a typo and change two variables",
-      "url": "https://github.com/leanprover-community/mathlib4/pull/32491",
-      "user": "faenuccio",
-      "repo": "leanprover-community/mathlib4",
-      "state": "merged",
-      "createdAt": "2025-12-05"
-    },
-    {
-      "number": 32305,
-      "title": "feat: define Sobolev Spaces",
-      "url": "https://github.com/leanprover-community/mathlib4/pull/32305",
-      "user": "faenuccio",
-      "repo": "leanprover-community/mathlib4",
-      "state": "open",
-      "createdAt": "2025-12-01"
-    },
-    {
-      "number": 29728,
-      "title": "feat(Topology/KrullDimension): add subspace dimension inequality",
-      "url": "https://github.com/leanprover-community/mathlib4/pull/29728",
-      "user": "a-dangelo",
-      "repo": "leanprover-community/mathlib4",
-      "state": "merged",
-      "createdAt": "2025-09-16"
-    },
-    {
-      "number": 29644,
-      "title": "chore(GroupWithZero/WithZero): reorganize variable names",
-      "url": "https://github.com/leanprover-community/mathlib4/pull/29644",
-      "user": "faenuccio",
-      "repo": "leanprover-community/mathlib4",
-      "state": "merged",
-      "createdAt": "2025-09-14"
-    },
-    {
-      "number": 29594,
-      "title": "feat(Algebra.Order.GroupWithZero.WithZero): add multiplicativity",
-      "url": "https://github.com/leanprover-community/mathlib4/pull/29594",
-      "user": "faenuccio",
-      "repo": "leanprover-community/mathlib4",
-      "state": "closed",
-      "createdAt": "2025-09-12"
-    },
-    {
-      "number": 29033,
-      "title": "feat(Analysis.LocallyConvex): a linear map is surjective iff its image contains a ball, or a closed ball, or a sphere",
-      "url": "https://github.com/leanprover-community/mathlib4/pull/29033",
-      "user": "faenuccio",
-      "repo": "leanprover-community/mathlib4",
-      "state": "merged",
-      "createdAt": "2025-08-27"
-    },
-    {
-      "number": 28958,
-      "title": "feat: add Nontrivial instance for linear maps",
-      "url": "https://github.com/leanprover-community/mathlib4/pull/28958",
-      "user": "faenuccio",
-      "repo": "leanprover-community/mathlib4",
-      "state": "merged",
-      "createdAt": "2025-08-26"
-    },
-    {
-      "number": 28694,
-      "title": "doc: correct NormedSpace.Dual to StrongDual",
-      "url": "https://github.com/leanprover-community/mathlib4/pull/28694",
-      "user": "faenuccio",
-      "repo": "leanprover-community/mathlib4",
-      "state": "merged",
-      "createdAt": "2025-08-20"
-    },
-    {
-      "number": 28693,
-      "title": "feat(Analysis.Normed.Module.Milman-Pettis): add Milman-Pettis theorem",
-      "url": "https://github.com/leanprover-community/mathlib4/pull/28693",
-      "user": "faenuccio",
-      "repo": "leanprover-community/mathlib4",
-      "state": "open",
-      "createdAt": "2025-08-20"
-    },
-    {
-      "number": 28631,
-      "title": "feat(Data\\Nat\\ModEq.lean): add grind attribute to ModEq",
-      "url": "https://github.com/leanprover-community/mathlib4/pull/28631",
-      "user": "faenuccio",
-      "repo": "leanprover-community/mathlib4",
-      "state": "open",
-      "createdAt": "2025-08-19"
-    },
-    {
-      "number": 28593,
-      "title": "doc(MeasureTheory\\Function\\LpSeminorm\\Defs.lean): remove extra prime",
-      "url": "https://github.com/leanprover-community/mathlib4/pull/28593",
-      "user": "faenuccio",
-      "repo": "leanprover-community/mathlib4",
-      "state": "merged",
-      "createdAt": "2025-08-18"
-    },
-    {
-      "number": 28481,
-      "title": "doc: improve doc strings for `Filter.liminf`, `Filter.limsup`",
-      "url": "https://github.com/leanprover-community/mathlib4/pull/28481",
-      "user": "faenuccio",
-      "repo": "leanprover-community/mathlib4",
-      "state": "merged",
-      "createdAt": "2025-08-15"
-    },
-    {
-      "number": 28479,
-      "title": "doc(MeasureTheory.Function.EssSup): fix broken link",
-      "url": "https://github.com/leanprover-community/mathlib4/pull/28479",
-      "user": "faenuccio",
-      "repo": "leanprover-community/mathlib4",
-      "state": "merged",
-      "createdAt": "2025-08-15"
-    },
-    {
-      "number": 27035,
-      "title": "chore(IsManifold/Basic): replace continuity by fun_prop",
-      "url": "https://github.com/leanprover-community/mathlib4/pull/27035",
-      "user": "faenuccio",
-      "repo": "leanprover-community/mathlib4",
-      "state": "merged",
-      "createdAt": "2025-07-12"
-    },
-    {
       "number": 27008,
       "title": "feat(MeasureTheory): add `MeasurePreserving.integrable_comp_of_integrable`",
       "url": "https://github.com/leanprover-community/mathlib4/pull/27008",
@@ -696,24 +498,6 @@
       "createdAt": "2025-07-11"
     },
     {
-      "number": 26980,
-      "title": "feat(Algebra/GroupWithZero/WithZero): add lemma map'_surjective_iff",
-      "url": "https://github.com/leanprover-community/mathlib4/pull/26980",
-      "user": "faenuccio",
-      "repo": "leanprover-community/mathlib4",
-      "state": "merged",
-      "createdAt": "2025-07-10"
-    },
-    {
-      "number": 26971,
-      "title": "feat(Algebra/GroupWithZero/WithZero): add lemma map'_surjective_iff",
-      "url": "https://github.com/leanprover-community/mathlib4/pull/26971",
-      "user": "faenuccio",
-      "repo": "leanprover-community/mathlib4",
-      "state": "closed",
-      "createdAt": "2025-07-10"
-    },
-    {
       "number": 26923,
       "title": "feat(Dynamics/BirkhoffSum): add the pointwise ergodic theorem (Birkhoff's)",
       "url": "https://github.com/leanprover-community/mathlib4/pull/26923",
@@ -721,15 +505,6 @@
       "repo": "leanprover-community/mathlib4",
       "state": "open",
       "createdAt": "2025-07-09"
-    },
-    {
-      "number": 26872,
-      "title": "chore(RingTheory/Valuation/RankOne): modify the definition of Valuation.RankOne using its range rather than its codomain",
-      "url": "https://github.com/leanprover-community/mathlib4/pull/26872",
-      "user": "faenuccio",
-      "repo": "leanprover-community/mathlib4",
-      "state": "merged",
-      "createdAt": "2025-07-07"
     },
     {
       "number": 26853,
@@ -802,42 +577,6 @@
       "repo": "leanprover-community/mathlib4",
       "state": "merged",
       "createdAt": "2025-07-06"
-    },
-    {
-      "number": 26669,
-      "title": "chore: move BooleanAlgebra material on Function out of Data",
-      "url": "https://github.com/leanprover-community/mathlib4/pull/26669",
-      "user": "faenuccio",
-      "repo": "leanprover-community/mathlib4",
-      "state": "closed",
-      "createdAt": "2025-07-03"
-    },
-    {
-      "number": 26589,
-      "title": "feat(Algebra/GroupWithZero/Range): add withZeroUnitsHom",
-      "url": "https://github.com/leanprover-community/mathlib4/pull/26589",
-      "user": "faenuccio",
-      "repo": "leanprover-community/mathlib4",
-      "state": "closed",
-      "createdAt": "2025-07-01"
-    },
-    {
-      "number": 26588,
-      "title": "feat(Algebra/GroupWithZero/WithZero): add the multiplicative embedding with zero from the range",
-      "url": "https://github.com/leanprover-community/mathlib4/pull/26588",
-      "user": "faenuccio",
-      "repo": "leanprover-community/mathlib4",
-      "state": "merged",
-      "createdAt": "2025-07-01"
-    },
-    {
-      "number": 26587,
-      "title": "feat(RingTheory/Valuation/Discrete/Basic.lean): add Nontriviality instances for discrete valuations",
-      "url": "https://github.com/leanprover-community/mathlib4/pull/26587",
-      "user": "faenuccio",
-      "repo": "leanprover-community/mathlib4",
-      "state": "merged",
-      "createdAt": "2025-07-01"
     }
   ],
   "issueItems": [
@@ -1137,24 +876,6 @@
       "repo": "leanprover-community/mathlib4",
       "state": "open",
       "createdAt": "2026-03-16"
-    },
-    {
-      "number": 33238,
-      "title": "Add delaborator checking canonicity of instances",
-      "url": "https://github.com/leanprover-community/mathlib4/issues/33238",
-      "user": "faenuccio",
-      "repo": "leanprover-community/mathlib4",
-      "state": "open",
-      "createdAt": "2025-12-23"
-    },
-    {
-      "number": 31330,
-      "title": "Follow-up of #29447: two more imports to remove",
-      "url": "https://github.com/leanprover-community/mathlib4/issues/31330",
-      "user": "faenuccio",
-      "repo": "leanprover-community/mathlib4",
-      "state": "open",
-      "createdAt": "2025-11-06"
     }
   ]
 }

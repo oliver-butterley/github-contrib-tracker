@@ -87,6 +87,27 @@ function buildMarkdown(
     ``,
   ];
 
+  // Quarterly totals summary — one table per quarter with per-repo rows + total
+  lines.push(`## Summary`, ``);
+  for (const q of allQuarters) {
+    lines.push(`### ${quarterLabel(q)}`, ``);
+    lines.push(`| Repo | PRs opened | PRs merged | Issues opened | Issues closed |`);
+    lines.push(`|------|----------:|----------:|-------------:|-------------:|`);
+    let totPrs = 0, totMerged = 0, totIssues = 0, totIssuesClosed = 0;
+    for (const repoKey of repoKeys) {
+      const prs = prByQR.get(q)?.get(repoKey) ?? [];
+      const issues = issueByQR.get(q)?.get(repoKey) ?? [];
+      if (prs.length === 0 && issues.length === 0) continue;
+      const merged = prs.filter((p) => p.state === "merged").length;
+      const issuesClosed = issues.filter((i) => i.state === "closed").length;
+      totPrs += prs.length; totMerged += merged;
+      totIssues += issues.length; totIssuesClosed += issuesClosed;
+      lines.push(`| ${repoKey} | ${prs.length} | ${merged} | ${issues.length} | ${issuesClosed} |`);
+    }
+    lines.push(`| **Total** | **${totPrs}** | **${totMerged}** | **${totIssues}** | **${totIssuesClosed}** |`);
+    lines.push(``);
+  }
+
   for (const q of allQuarters) {
     lines.push(`## ${quarterLabel(q)}`, ``);
 

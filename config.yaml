@@ -17,6 +17,14 @@ tracking:
     - jinxinglim
     - mkovaxx
 
+  exclude:
+    - repo: leanprover-community/mathlib4
+      user: faenuccio
+    - repo: leanprover-community/mathlib4
+      user: a-dangelo
+    - repo: leanprover-community/mathlib4
+      user: mpenciak
+
   repos:
     - owner: AeneasVerif
       name: aeneas

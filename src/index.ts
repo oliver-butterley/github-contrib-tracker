@@ -43,7 +43,7 @@ async function main() {
     },
   });
 
-  const { since, users, repos } = config.tracking;
+  const { since, users, repos, exclude } = config.tracking;
   console.log(`Collecting data since ${since} for ${users.length} users across ${repos.length} repos (${repos.length * 2} API calls)...`);
 
   const allPrItems: PrItem[] = [];
@@ -60,8 +60,19 @@ async function main() {
     console.log(`${prItems.length} PRs, ${issueItems.length} issues`);
   }
 
+  const isExcluded = (repo: string, user: string): boolean =>
+    exclude.some((rule) => rule.repo === repo && (!rule.user || rule.user === user));
+
+  const filteredPrItems = allPrItems.filter((item) => !isExcluded(item.repo, item.user));
+  const filteredIssueItems = allIssueItems.filter((item) => !isExcluded(item.repo, item.user));
+
+  if (exclude.length > 0) {
+    const excluded = allPrItems.length - filteredPrItems.length + allIssueItems.length - filteredIssueItems.length;
+    if (excluded > 0) console.log(`Excluded ${excluded} items based on exclude rules`);
+  }
+
   const repoKeys = repos.map((r) => `${r.owner}/${r.name}`);
-  await writeOutputs(since, repoKeys, allPrItems, allIssueItems);
+  await writeOutputs(since, repoKeys, filteredPrItems, filteredIssueItems);
 }
 
 main().catch((err) => {

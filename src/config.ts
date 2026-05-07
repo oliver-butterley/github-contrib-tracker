@@ -27,6 +27,14 @@ export function loadConfig(path = "config.yaml"): Config {
 
   const github = (raw["github"] as Record<string, unknown> | undefined) ?? {};
 
+  const exclude = (tracking["exclude"] as Array<Record<string, unknown>> | undefined) ?? [];
+  for (const rule of exclude) {
+    if (typeof rule !== "object" || rule === null || typeof rule["repo"] !== "string")
+      throw new Error("config.yaml: each exclude entry must have a 'repo' string field");
+    if ("user" in rule && typeof rule["user"] !== "string")
+      throw new Error("config.yaml: exclude entry 'user' must be a string if present");
+  }
+
   return {
     github: {
       api_url: (github["api_url"] as string | undefined) ?? "https://api.github.com",
@@ -35,6 +43,7 @@ export function loadConfig(path = "config.yaml"): Config {
       since,
       users: users as string[],
       repos: repos as Array<{ owner: string; name: string; bors?: boolean }>,
+      exclude: exclude as Array<{ repo: string; user?: string }>,
     },
   };
 }
