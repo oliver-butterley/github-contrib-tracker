@@ -33,13 +33,6 @@ Generated: 2026-05-07  |  Data since: 2025-07-01
 | verus-lang/verus | 4 | 4 | 0 | 0 |
 | **Total** | **4** | **4** | **4** | **4** |
 
-### Q3 2025 (Jul–Sep 2025)
-
-| Repo | PRs opened | PRs merged | Issues opened | Issues closed |
-|------|----------:|----------:|-------------:|-------------:|
-| leanprover-community/mathlib4 | 10 | 9 | 0 | 0 |
-| **Total** | **10** | **9** | **0** | **0** |
-
 ## Q2 2026 (Apr–Jun 2026)
 
 ### AeneasVerif/aeneas
@@ -227,22 +220,3 @@ PRs: **4 opened** · 4 merged · 0 closed  |  Issues: **0 opened** · 0 closed
 - [#2049 [cargo-verus] feat: `focus` subcommand](https://github.com/verus-lang/verus/pull/2049) — mkovaxx — merged
 - [#2033 refactor: cargo-verus to use clap and reorganize internals](https://github.com/verus-lang/verus/pull/2033) — mkovaxx — merged
 - [#2029 test: add integration tests for `cargo verus verify`](https://github.com/verus-lang/verus/pull/2029) — mkovaxx — merged
-
-## Q3 2025 (Jul–Sep 2025)
-
-### leanprover-community/mathlib4
-
-PRs: **10 opened** · 9 merged · 0 closed  |  Issues: **0 opened** · 0 closed
-
-**Pull requests:**
-
-- [#27008 feat(MeasureTheory): add `MeasurePreserving.integrable_comp_of_integrable`](https://github.com/leanprover-community/mathlib4/pull/27008) — oliver-butterley — merged
-- [#26853 feat(Mathlib/MeasureTheory/MeasurableSpace/Invariants): add `comp_eq_of_measurable_invariants`](https://github.com/leanprover-community/mathlib4/pull/26853) — oliver-butterley — merged
-- [#26852 feat(Mathlib/Order/Filter/Basic): add `EventuallyEq.mul_left` and `...right`](https://github.com/leanprover-community/mathlib4/pull/26852) — oliver-butterley — merged
-- [#26851 feat(Algebra/Order): add several lemmas related to `partialSups`](https://github.com/leanprover-community/mathlib4/pull/26851) — oliver-butterley — merged
-- [#26848 feat(Mathlib/Order/PartialSups): add `PartialSups` composition lemma](https://github.com/leanprover-community/mathlib4/pull/26848) — oliver-butterley — merged
-- [#26842 feat(Dynamics/BirkhoffSum/Average): add lemma `birkhoffAverage_of_invariant`](https://github.com/leanprover-community/mathlib4/pull/26842) — oliver-butterley — merged
-- [#26840 feat(Mathlib/Dynamics/BirkhoffSum/Average): add 3 BirkhoffAverage lemmas](https://github.com/leanprover-community/mathlib4/pull/26840) — oliver-butterley — merged
-- [#26810 feat (Mathlib/Dynamics/BirkhoffSum/Basic): add lemma `birkhoffSum_of_comp_eq`](https://github.com/leanprover-community/mathlib4/pull/26810) — oliver-butterley — merged
-- [#26807 feat(Mathlib/Logic/Function/Iterate): add small lemma `iterate_invariant`](https://github.com/leanprover-community/mathlib4/pull/26807) — oliver-butterley — merged
-- [#26923 feat(Dynamics/BirkhoffSum): add the pointwise ergodic theorem (Birkhoff's)](https://github.com/leanprover-community/mathlib4/pull/26923) — oliver-butterley — open

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-07T13:19:17.476Z",
+  "generatedAt": "2026-05-07T13:25:54.145Z",
   "since": "2025-07-01",
   "prItems": [
     {
@@ -487,96 +487,6 @@
       "repo": "leanprover-community/mathlib4",
       "state": "merged",
       "createdAt": "2026-03-16"
-    },
-    {
-      "number": 27008,
-      "title": "feat(MeasureTheory): add `MeasurePreserving.integrable_comp_of_integrable`",
-      "url": "https://github.com/leanprover-community/mathlib4/pull/27008",
-      "user": "oliver-butterley",
-      "repo": "leanprover-community/mathlib4",
-      "state": "merged",
-      "createdAt": "2025-07-11"
-    },
-    {
-      "number": 26923,
-      "title": "feat(Dynamics/BirkhoffSum): add the pointwise ergodic theorem (Birkhoff's)",
-      "url": "https://github.com/leanprover-community/mathlib4/pull/26923",
-      "user": "oliver-butterley",
-      "repo": "leanprover-community/mathlib4",
-      "state": "open",
-      "createdAt": "2025-07-09"
-    },
-    {
-      "number": 26853,
-      "title": "feat(Mathlib/MeasureTheory/MeasurableSpace/Invariants): add `comp_eq_of_measurable_invariants`",
-      "url": "https://github.com/leanprover-community/mathlib4/pull/26853",
-      "user": "oliver-butterley",
-      "repo": "leanprover-community/mathlib4",
-      "state": "merged",
-      "createdAt": "2025-07-07"
-    },
-    {
-      "number": 26852,
-      "title": "feat(Mathlib/Order/Filter/Basic): add `EventuallyEq.mul_left` and `...right`",
-      "url": "https://github.com/leanprover-community/mathlib4/pull/26852",
-      "user": "oliver-butterley",
-      "repo": "leanprover-community/mathlib4",
-      "state": "merged",
-      "createdAt": "2025-07-07"
-    },
-    {
-      "number": 26851,
-      "title": "feat(Algebra/Order): add several lemmas related to `partialSups`",
-      "url": "https://github.com/leanprover-community/mathlib4/pull/26851",
-      "user": "oliver-butterley",
-      "repo": "leanprover-community/mathlib4",
-      "state": "merged",
-      "createdAt": "2025-07-07"
-    },
-    {
-      "number": 26848,
-      "title": "feat(Mathlib/Order/PartialSups): add `PartialSups` composition lemma",
-      "url": "https://github.com/leanprover-community/mathlib4/pull/26848",
-      "user": "oliver-butterley",
-      "repo": "leanprover-community/mathlib4",
-      "state": "merged",
-      "createdAt": "2025-07-07"
-    },
-    {
-      "number": 26842,
-      "title": "feat(Dynamics/BirkhoffSum/Average): add lemma `birkhoffAverage_of_invariant`",
-      "url": "https://github.com/leanprover-community/mathlib4/pull/26842",
-      "user": "oliver-butterley",
-      "repo": "leanprover-community/mathlib4",
-      "state": "merged",
-      "createdAt": "2025-07-07"
-    },
-    {
-      "number": 26840,
-      "title": "feat(Mathlib/Dynamics/BirkhoffSum/Average): add 3 BirkhoffAverage lemmas",
-      "url": "https://github.com/leanprover-community/mathlib4/pull/26840",
-      "user": "oliver-butterley",
-      "repo": "leanprover-community/mathlib4",
-      "state": "merged",
-      "createdAt": "2025-07-07"
-    },
-    {
-      "number": 26810,
-      "title": "feat (Mathlib/Dynamics/BirkhoffSum/Basic): add lemma `birkhoffSum_of_comp_eq`",
-      "url": "https://github.com/leanprover-community/mathlib4/pull/26810",
-      "user": "oliver-butterley",
-      "repo": "leanprover-community/mathlib4",
-      "state": "merged",
-      "createdAt": "2025-07-06"
-    },
-    {
-      "number": 26807,
-      "title": "feat(Mathlib/Logic/Function/Iterate): add small lemma `iterate_invariant`",
-      "url": "https://github.com/leanprover-community/mathlib4/pull/26807",
-      "user": "oliver-butterley",
-      "repo": "leanprover-community/mathlib4",
-      "state": "merged",
-      "createdAt": "2025-07-06"
     }
   ],
   "issueItems": [

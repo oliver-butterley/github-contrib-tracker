@@ -33,6 +33,11 @@ export function loadConfig(path = "config.yaml"): Config {
       throw new Error("config.yaml: each exclude entry must have a 'repo' string field");
     if ("user" in rule && typeof rule["user"] !== "string")
       throw new Error("config.yaml: exclude entry 'user' must be a string if present");
+    if ("numbers" in rule) {
+      const nums = rule["numbers"];
+      if (!Array.isArray(nums) || nums.some((n) => typeof n !== "number"))
+        throw new Error("config.yaml: exclude entry 'numbers' must be an array of integers");
+    }
   }
 
   return {

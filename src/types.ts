@@ -37,8 +37,9 @@ export interface IssueItem {
 }
 
 export interface ExcludeRule {
-  repo: string;   // "owner/name"
-  user?: string;  // if set, only exclude items from this user
+  repo: string;      // "owner/name"
+  user?: string;     // exclude all items from this user in this repo
+  numbers?: number[]; // exclude specific PR/issue numbers in this repo
 }
 
 export interface CsvRow {

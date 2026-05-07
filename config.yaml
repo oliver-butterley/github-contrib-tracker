@@ -24,6 +24,8 @@ tracking:
       user: a-dangelo
     - repo: leanprover-community/mathlib4
       user: mpenciak
+    - repo: leanprover-community/mathlib4
+      numbers: [26807, 26810, 26840, 26842, 26848, 26851, 26852, 26853, 26923, 27008]
 
   repos:
     - owner: AeneasVerif

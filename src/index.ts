@@ -60,11 +60,16 @@ async function main() {
     console.log(`${prItems.length} PRs, ${issueItems.length} issues`);
   }
 
-  const isExcluded = (repo: string, user: string): boolean =>
-    exclude.some((rule) => rule.repo === repo && (!rule.user || rule.user === user));
+  const isExcluded = (repo: string, user: string, number: number): boolean =>
+    exclude.some((rule) => {
+      if (rule.repo !== repo) return false;
+      if (rule.user && rule.user === user && !rule.numbers) return true;
+      if (rule.numbers?.includes(number)) return true;
+      return false;
+    });
 
-  const filteredPrItems = allPrItems.filter((item) => !isExcluded(item.repo, item.user));
-  const filteredIssueItems = allIssueItems.filter((item) => !isExcluded(item.repo, item.user));
+  const filteredPrItems = allPrItems.filter((item) => !isExcluded(item.repo, item.user, item.number));
+  const filteredIssueItems = allIssueItems.filter((item) => !isExcluded(item.repo, item.user, item.number));
 
   if (exclude.length > 0) {
     const excluded = allPrItems.length - filteredPrItems.length + allIssueItems.length - filteredIssueItems.length;
