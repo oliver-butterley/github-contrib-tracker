@@ -1,0 +1,1169 @@
+{
+  "generatedAt": "2026-07-13T09:38:05.465Z",
+  "since": "2025-07-01",
+  "prItems": [
+    {
+      "number": 1203,
+      "title": "Add issue templates",
+      "url": "https://github.com/AeneasVerif/aeneas/pull/1203",
+      "user": "oliver-butterley",
+      "repo": "AeneasVerif/aeneas",
+      "state": "open",
+      "createdAt": "2026-07-12"
+    },
+    {
+      "number": 1185,
+      "title": "feat: Multi-file extraction.",
+      "url": "https://github.com/AeneasVerif/aeneas/pull/1185",
+      "user": "mpenciak",
+      "repo": "AeneasVerif/aeneas",
+      "state": "open",
+      "createdAt": "2026-07-02"
+    },
+    {
+      "number": 1169,
+      "title": "Avoid reserved keywords being used as a bare name",
+      "url": "https://github.com/AeneasVerif/aeneas/pull/1169",
+      "user": "oliver-butterley",
+      "repo": "AeneasVerif/aeneas",
+      "state": "open",
+      "createdAt": "2026-06-25"
+    },
+    {
+      "number": 1161,
+      "title": "Update paths written to translate.json",
+      "url": "https://github.com/AeneasVerif/aeneas/pull/1161",
+      "user": "oliver-butterley",
+      "repo": "AeneasVerif/aeneas",
+      "state": "merged",
+      "createdAt": "2026-06-24"
+    },
+    {
+      "number": 1142,
+      "title": "Deduplication of identifiers arising from traits",
+      "url": "https://github.com/AeneasVerif/aeneas/pull/1142",
+      "user": "oliver-butterley",
+      "repo": "AeneasVerif/aeneas",
+      "state": "open",
+      "createdAt": "2026-06-20"
+    },
+    {
+      "number": 1131,
+      "title": "Fix `Iterator` extraction",
+      "url": "https://github.com/AeneasVerif/aeneas/pull/1131",
+      "user": "mpenciak",
+      "repo": "AeneasVerif/aeneas",
+      "state": "open",
+      "createdAt": "2026-06-17"
+    },
+    {
+      "number": 1128,
+      "title": "De-duplicate parent trait names",
+      "url": "https://github.com/AeneasVerif/aeneas/pull/1128",
+      "user": "mpenciak",
+      "repo": "AeneasVerif/aeneas",
+      "state": "open",
+      "createdAt": "2026-06-16"
+    },
+    {
+      "number": 1120,
+      "title": "Deduplication of identifiers arising from traits",
+      "url": "https://github.com/AeneasVerif/aeneas/pull/1120",
+      "user": "oliver-butterley",
+      "repo": "AeneasVerif/aeneas",
+      "state": "closed",
+      "createdAt": "2026-06-11"
+    },
+    {
+      "number": 1103,
+      "title": "Add `public` in the list of Lean keywords",
+      "url": "https://github.com/AeneasVerif/aeneas/pull/1103",
+      "user": "oliver-butterley",
+      "repo": "AeneasVerif/aeneas",
+      "state": "merged",
+      "createdAt": "2026-06-05"
+    },
+    {
+      "number": 1058,
+      "title": "feat: Improve postcondition naming",
+      "url": "https://github.com/AeneasVerif/aeneas/pull/1058",
+      "user": "mpenciak",
+      "repo": "AeneasVerif/aeneas",
+      "state": "open",
+      "createdAt": "2026-05-25"
+    },
+    {
+      "number": 1054,
+      "title": "fix: `step*?` trace generation in `inferPost`  branches",
+      "url": "https://github.com/AeneasVerif/aeneas/pull/1054",
+      "user": "mpenciak",
+      "repo": "AeneasVerif/aeneas",
+      "state": "merged",
+      "createdAt": "2026-05-22"
+    },
+    {
+      "number": 1047,
+      "title": "fix: Correctly destructure fvars based off shape of binding in step call",
+      "url": "https://github.com/AeneasVerif/aeneas/pull/1047",
+      "user": "mpenciak",
+      "repo": "AeneasVerif/aeneas",
+      "state": "merged",
+      "createdAt": "2026-05-21"
+    },
+    {
+      "number": 1045,
+      "title": "fix: allow unit binds",
+      "url": "https://github.com/AeneasVerif/aeneas/pull/1045",
+      "user": "mpenciak",
+      "repo": "AeneasVerif/aeneas",
+      "state": "merged",
+      "createdAt": "2026-05-20"
+    },
+    {
+      "number": 1019,
+      "title": "fix: Correctly flag used and unused variables",
+      "url": "https://github.com/AeneasVerif/aeneas/pull/1019",
+      "user": "mpenciak",
+      "repo": "AeneasVerif/aeneas",
+      "state": "merged",
+      "createdAt": "2026-05-12"
+    },
+    {
+      "number": 1009,
+      "title": "Emit translation.json",
+      "url": "https://github.com/AeneasVerif/aeneas/pull/1009",
+      "user": "oliver-butterley",
+      "repo": "AeneasVerif/aeneas",
+      "state": "merged",
+      "createdAt": "2026-05-08"
+    },
+    {
+      "number": 997,
+      "title": "fix: synthesize mvars in last do elem",
+      "url": "https://github.com/AeneasVerif/aeneas/pull/997",
+      "user": "mpenciak",
+      "repo": "AeneasVerif/aeneas",
+      "state": "merged",
+      "createdAt": "2026-05-07"
+    },
+    {
+      "number": 983,
+      "title": "Update to Lean v4.30.0-rc2",
+      "url": "https://github.com/AeneasVerif/aeneas/pull/983",
+      "user": "oliver-butterley",
+      "repo": "AeneasVerif/aeneas",
+      "state": "merged",
+      "createdAt": "2026-05-06"
+    },
+    {
+      "number": 982,
+      "title": "Update to Lean v4.29.1",
+      "url": "https://github.com/AeneasVerif/aeneas/pull/982",
+      "user": "oliver-butterley",
+      "repo": "AeneasVerif/aeneas",
+      "state": "merged",
+      "createdAt": "2026-05-06"
+    },
+    {
+      "number": 981,
+      "title": "Add release tag workflow for Lean updates.",
+      "url": "https://github.com/AeneasVerif/aeneas/pull/981",
+      "user": "oliver-butterley",
+      "repo": "AeneasVerif/aeneas",
+      "state": "closed",
+      "createdAt": "2026-05-06"
+    },
+    {
+      "number": 963,
+      "title": "fix: `do` elab regressions",
+      "url": "https://github.com/AeneasVerif/aeneas/pull/963",
+      "user": "mpenciak",
+      "repo": "AeneasVerif/aeneas",
+      "state": "merged",
+      "createdAt": "2026-04-30"
+    },
+    {
+      "number": 947,
+      "title": "WIP: add many models extending the Aeneas standard library coverage",
+      "url": "https://github.com/AeneasVerif/aeneas/pull/947",
+      "user": "oliver-butterley",
+      "repo": "AeneasVerif/aeneas",
+      "state": "closed",
+      "createdAt": "2026-04-19"
+    },
+    {
+      "number": 918,
+      "title": "feat: New `do` Elaborator",
+      "url": "https://github.com/AeneasVerif/aeneas/pull/918",
+      "user": "mpenciak",
+      "repo": "AeneasVerif/aeneas",
+      "state": "merged",
+      "createdAt": "2026-04-07"
+    },
+    {
+      "number": 885,
+      "title": "chore: replace custom List.slice  with upstream List.extract",
+      "url": "https://github.com/AeneasVerif/aeneas/pull/885",
+      "user": "oliver-butterley",
+      "repo": "AeneasVerif/aeneas",
+      "state": "open",
+      "createdAt": "2026-03-27"
+    },
+    {
+      "number": 884,
+      "title": "feat: `-version` arg for aeneas",
+      "url": "https://github.com/AeneasVerif/aeneas/pull/884",
+      "user": "oliver-butterley",
+      "repo": "AeneasVerif/aeneas",
+      "state": "merged",
+      "createdAt": "2026-03-27"
+    },
+    {
+      "number": 883,
+      "title": "docs: add landing/contents page and a few updates",
+      "url": "https://github.com/AeneasVerif/aeneas/pull/883",
+      "user": "oliver-butterley",
+      "repo": "AeneasVerif/aeneas",
+      "state": "merged",
+      "createdAt": "2026-03-27"
+    },
+    {
+      "number": 881,
+      "title": "fix: switch to using our own version of `TryThis`",
+      "url": "https://github.com/AeneasVerif/aeneas/pull/881",
+      "user": "mpenciak",
+      "repo": "AeneasVerif/aeneas",
+      "state": "merged",
+      "createdAt": "2026-03-27"
+    },
+    {
+      "number": 837,
+      "title": "feat: Tactic to infer post conditions",
+      "url": "https://github.com/AeneasVerif/aeneas/pull/837",
+      "user": "mpenciak",
+      "repo": "AeneasVerif/aeneas",
+      "state": "merged",
+      "createdAt": "2026-03-12"
+    },
+    {
+      "number": 823,
+      "title": "Add immutable theorems for Array and Slice indexing.",
+      "url": "https://github.com/AeneasVerif/aeneas/pull/823",
+      "user": "ChristianoBraga",
+      "repo": "AeneasVerif/aeneas",
+      "state": "merged",
+      "createdAt": "2026-03-04"
+    },
+    {
+      "number": 808,
+      "title": "feat: show Rust visibility in Lean docstrings",
+      "url": "https://github.com/AeneasVerif/aeneas/pull/808",
+      "user": "oliver-butterley",
+      "repo": "AeneasVerif/aeneas",
+      "state": "merged",
+      "createdAt": "2026-02-26"
+    },
+    {
+      "number": 795,
+      "title": "Make comment before def a proper `/--` docstring",
+      "url": "https://github.com/AeneasVerif/aeneas/pull/795",
+      "user": "oliver-butterley",
+      "repo": "AeneasVerif/aeneas",
+      "state": "merged",
+      "createdAt": "2026-02-24"
+    },
+    {
+      "number": 780,
+      "title": "fix: check head is Std.WP.spec within tryMatch",
+      "url": "https://github.com/AeneasVerif/aeneas/pull/780",
+      "user": "oliver-butterley",
+      "repo": "AeneasVerif/aeneas",
+      "state": "merged",
+      "createdAt": "2026-02-18"
+    },
+    {
+      "number": 1104,
+      "title": "feat: refactor Charon.toml to use Cargo.toml and add support for start_from, hide_marker_traits",
+      "url": "https://github.com/AeneasVerif/charon/pull/1104",
+      "user": "oliver-butterley",
+      "repo": "AeneasVerif/charon",
+      "state": "merged",
+      "createdAt": "2026-04-20"
+    },
+    {
+      "number": 1103,
+      "title": "docs: clarify opacity semantics in what_charon_translates.md",
+      "url": "https://github.com/AeneasVerif/charon/pull/1103",
+      "user": "oliver-butterley",
+      "repo": "AeneasVerif/charon",
+      "state": "merged",
+      "createdAt": "2026-04-19"
+    },
+    {
+      "number": 1080,
+      "title": "Docs: update `what_charon_translates.md`",
+      "url": "https://github.com/AeneasVerif/charon/pull/1080",
+      "user": "oliver-butterley",
+      "repo": "AeneasVerif/charon",
+      "state": "merged",
+      "createdAt": "2026-04-01"
+    },
+    {
+      "number": 473,
+      "title": "feat(Protocols): Key exchange protocols and Diffie-Hellman",
+      "url": "https://github.com/leanprover/cslib/pull/473",
+      "user": "ChristianoBraga",
+      "repo": "leanprover/cslib",
+      "state": "closed",
+      "createdAt": "2026-04-06"
+    },
+    {
+      "number": 472,
+      "title": "feat(Protocols): Sigma protocols and Schnorr identification",
+      "url": "https://github.com/leanprover/cslib/pull/472",
+      "user": "ChristianoBraga",
+      "repo": "leanprover/cslib",
+      "state": "closed",
+      "createdAt": "2026-04-06"
+    },
+    {
+      "number": 2646,
+      "title": "fix: pin version in cargo-verus vstd test",
+      "url": "https://github.com/verus-lang/verus/pull/2646",
+      "user": "mkovaxx",
+      "repo": "verus-lang/verus",
+      "state": "merged",
+      "createdAt": "2026-07-13"
+    },
+    {
+      "number": 2632,
+      "title": "[cargo-verus] docs: improve instructions about migrating an existing project",
+      "url": "https://github.com/verus-lang/verus/pull/2632",
+      "user": "mkovaxx",
+      "repo": "verus-lang/verus",
+      "state": "merged",
+      "createdAt": "2026-07-07"
+    },
+    {
+      "number": 2584,
+      "title": "[cargo-verus] feat: check verus and vstd compatibility",
+      "url": "https://github.com/verus-lang/verus/pull/2584",
+      "user": "mkovaxx",
+      "repo": "verus-lang/verus",
+      "state": "merged",
+      "createdAt": "2026-06-23"
+    },
+    {
+      "number": 2572,
+      "title": "fix: make vargo fmt happy",
+      "url": "https://github.com/verus-lang/verus/pull/2572",
+      "user": "mkovaxx",
+      "repo": "verus-lang/verus",
+      "state": "closed",
+      "createdAt": "2026-06-17"
+    },
+    {
+      "number": 2550,
+      "title": "[cargo-verus] feat: toolchains",
+      "url": "https://github.com/verus-lang/verus/pull/2550",
+      "user": "mkovaxx",
+      "repo": "verus-lang/verus",
+      "state": "merged",
+      "createdAt": "2026-06-12"
+    },
+    {
+      "number": 2509,
+      "title": "[rust_verify] fix: skip codegen when `--compile` is not set",
+      "url": "https://github.com/verus-lang/verus/pull/2509",
+      "user": "mkovaxx",
+      "repo": "verus-lang/verus",
+      "state": "merged",
+      "createdAt": "2026-05-30"
+    },
+    {
+      "number": 2494,
+      "title": "[cargo-verus] feat: support forwarding verbosity settings to Cargo and Verus",
+      "url": "https://github.com/verus-lang/verus/pull/2494",
+      "user": "mkovaxx",
+      "repo": "verus-lang/verus",
+      "state": "merged",
+      "createdAt": "2026-05-27"
+    },
+    {
+      "number": 2493,
+      "title": "misc: add settings for the Zed editor",
+      "url": "https://github.com/verus-lang/verus/pull/2493",
+      "user": "mkovaxx",
+      "repo": "verus-lang/verus",
+      "state": "merged",
+      "createdAt": "2026-05-27"
+    },
+    {
+      "number": 2490,
+      "title": "[rust_verify_test] feat: use a temp dir as `target` dir to isolate `cargo` test runs",
+      "url": "https://github.com/verus-lang/verus/pull/2490",
+      "user": "mkovaxx",
+      "repo": "verus-lang/verus",
+      "state": "merged",
+      "createdAt": "2026-05-26"
+    },
+    {
+      "number": 2489,
+      "title": "[cargo-verus] test: confirm expected behavior around package aliases",
+      "url": "https://github.com/verus-lang/verus/pull/2489",
+      "user": "mkovaxx",
+      "repo": "verus-lang/verus",
+      "state": "merged",
+      "createdAt": "2026-05-26"
+    },
+    {
+      "number": 2383,
+      "title": "[cargo-verus] refactor: remove `fake-cargo` and update all tests",
+      "url": "https://github.com/verus-lang/verus/pull/2383",
+      "user": "mkovaxx",
+      "repo": "verus-lang/verus",
+      "state": "merged",
+      "createdAt": "2026-04-27"
+    },
+    {
+      "number": 2355,
+      "title": "docs: document the `custom_err` attribute",
+      "url": "https://github.com/verus-lang/verus/pull/2355",
+      "user": "mkovaxx",
+      "repo": "verus-lang/verus",
+      "state": "merged",
+      "createdAt": "2026-04-20"
+    },
+    {
+      "number": 2351,
+      "title": "refactor: rename `proof_note_custom_err` to `custom_err` for brevity",
+      "url": "https://github.com/verus-lang/verus/pull/2351",
+      "user": "mkovaxx",
+      "repo": "verus-lang/verus",
+      "state": "merged",
+      "createdAt": "2026-04-19"
+    },
+    {
+      "number": 2333,
+      "title": "refactor: remove `custom_err` and `custom_req_err` attribute support",
+      "url": "https://github.com/verus-lang/verus/pull/2333",
+      "user": "mkovaxx",
+      "repo": "verus-lang/verus",
+      "state": "merged",
+      "createdAt": "2026-04-15"
+    },
+    {
+      "number": 2332,
+      "title": "[cargo-verus] refactor: prepare to retire `fake-cargo`",
+      "url": "https://github.com/verus-lang/verus/pull/2332",
+      "user": "mkovaxx",
+      "repo": "verus-lang/verus",
+      "state": "merged",
+      "createdAt": "2026-04-15"
+    },
+    {
+      "number": 2311,
+      "title": "[state_machines_macros] test: confirm `custom_err` behavior",
+      "url": "https://github.com/verus-lang/verus/pull/2311",
+      "user": "mkovaxx",
+      "repo": "verus-lang/verus",
+      "state": "merged",
+      "createdAt": "2026-04-08"
+    },
+    {
+      "number": 2286,
+      "title": "feat: `proof_note_custom_err` attribute",
+      "url": "https://github.com/verus-lang/verus/pull/2286",
+      "user": "mkovaxx",
+      "repo": "verus-lang/verus",
+      "state": "merged",
+      "createdAt": "2026-03-30"
+    },
+    {
+      "number": 2278,
+      "title": "[cargo-verus] test: run in CI",
+      "url": "https://github.com/verus-lang/verus/pull/2278",
+      "user": "mkovaxx",
+      "repo": "verus-lang/verus",
+      "state": "merged",
+      "createdAt": "2026-03-26"
+    },
+    {
+      "number": 2277,
+      "title": "[cargo-verus] feat: option to control Verus arg forwarding",
+      "url": "https://github.com/verus-lang/verus/pull/2277",
+      "user": "mkovaxx",
+      "repo": "verus-lang/verus",
+      "state": "merged",
+      "createdAt": "2026-03-26"
+    },
+    {
+      "number": 2271,
+      "title": "[guide] docs: document proof_note attributes",
+      "url": "https://github.com/verus-lang/verus/pull/2271",
+      "user": "mkovaxx",
+      "repo": "verus-lang/verus",
+      "state": "merged",
+      "createdAt": "2026-03-25"
+    },
+    {
+      "number": 2268,
+      "title": "refactor: replace `custom_req_err` and `custom_err` with `proof_note_custom_err`",
+      "url": "https://github.com/verus-lang/verus/pull/2268",
+      "user": "mkovaxx",
+      "repo": "verus-lang/verus",
+      "state": "merged",
+      "createdAt": "2026-03-24"
+    },
+    {
+      "number": 2246,
+      "title": "[builtin_macros] fix: handle `default_ensures` with return value pattern",
+      "url": "https://github.com/verus-lang/verus/pull/2246",
+      "user": "mkovaxx",
+      "repo": "verus-lang/verus",
+      "state": "merged",
+      "createdAt": "2026-03-13"
+    },
+    {
+      "number": 2233,
+      "title": "feat: streamline `proof_note` syntax on `assert`/`assume` statements",
+      "url": "https://github.com/verus-lang/verus/pull/2233",
+      "user": "mkovaxx",
+      "repo": "verus-lang/verus",
+      "state": "merged",
+      "createdAt": "2026-03-07"
+    },
+    {
+      "number": 2226,
+      "title": "feat: streamline `proof_note` syntax on `requires`/`ensures` clauses",
+      "url": "https://github.com/verus-lang/verus/pull/2226",
+      "user": "mkovaxx",
+      "repo": "verus-lang/verus",
+      "state": "merged",
+      "createdAt": "2026-03-05"
+    },
+    {
+      "number": 2202,
+      "title": "misc: auto-add @mkovaxx as reviewer on PRs touching cargo-verus",
+      "url": "https://github.com/verus-lang/verus/pull/2202",
+      "user": "mkovaxx",
+      "repo": "verus-lang/verus",
+      "state": "merged",
+      "createdAt": "2026-02-21"
+    },
+    {
+      "number": 2199,
+      "title": "[rust_verify] feat: JSON output has proof notes failing under `--no-cheating`",
+      "url": "https://github.com/verus-lang/verus/pull/2199",
+      "user": "mkovaxx",
+      "repo": "verus-lang/verus",
+      "state": "merged",
+      "createdAt": "2026-02-20"
+    },
+    {
+      "number": 2196,
+      "title": "[rust_verify] feat: JSON output has obligation proof notes",
+      "url": "https://github.com/verus-lang/verus/pull/2196",
+      "user": "mkovaxx",
+      "repo": "verus-lang/verus",
+      "state": "merged",
+      "createdAt": "2026-02-19"
+    },
+    {
+      "number": 2182,
+      "title": "[rust_verify] feat: JSON output has failed obligations (`proof_note`)",
+      "url": "https://github.com/verus-lang/verus/pull/2182",
+      "user": "mkovaxx",
+      "repo": "verus-lang/verus",
+      "state": "merged",
+      "createdAt": "2026-02-14"
+    },
+    {
+      "number": 2167,
+      "title": "[rust_verify] feat: `proof_note` labels",
+      "url": "https://github.com/verus-lang/verus/pull/2167",
+      "user": "mkovaxx",
+      "repo": "verus-lang/verus",
+      "state": "merged",
+      "createdAt": "2026-02-11"
+    },
+    {
+      "number": 2162,
+      "title": "[vir] feat: `ExprX::AssertAssume` has an optional `proof_note`",
+      "url": "https://github.com/verus-lang/verus/pull/2162",
+      "user": "mkovaxx",
+      "repo": "verus-lang/verus",
+      "state": "closed",
+      "createdAt": "2026-02-10"
+    },
+    {
+      "number": 2161,
+      "title": "[vir] feat: `ExprX::WithProofNote` to carry a `proof_note` label",
+      "url": "https://github.com/verus-lang/verus/pull/2161",
+      "user": "mkovaxx",
+      "repo": "verus-lang/verus",
+      "state": "closed",
+      "createdAt": "2026-02-10"
+    },
+    {
+      "number": 2158,
+      "title": "[rust_verify] feat: `#[proof_note(\"label\")]` attribute",
+      "url": "https://github.com/verus-lang/verus/pull/2158",
+      "user": "mkovaxx",
+      "repo": "verus-lang/verus",
+      "state": "merged",
+      "createdAt": "2026-02-09"
+    },
+    {
+      "number": 2136,
+      "title": "TEST; DO NOT MERGE",
+      "url": "https://github.com/verus-lang/verus/pull/2136",
+      "user": "mkovaxx",
+      "repo": "verus-lang/verus",
+      "state": "closed",
+      "createdAt": "2026-02-03"
+    },
+    {
+      "number": 2134,
+      "title": "feat: complex return value patterns",
+      "url": "https://github.com/verus-lang/verus/pull/2134",
+      "user": "mkovaxx",
+      "repo": "verus-lang/verus",
+      "state": "merged",
+      "createdAt": "2026-02-02"
+    },
+    {
+      "number": 2133,
+      "title": "fix: Singular download in CI",
+      "url": "https://github.com/verus-lang/verus/pull/2133",
+      "user": "mkovaxx",
+      "repo": "verus-lang/verus",
+      "state": "merged",
+      "createdAt": "2026-02-02"
+    },
+    {
+      "number": 2098,
+      "title": "[verus_syn] fix: relax parens around braces constraint",
+      "url": "https://github.com/verus-lang/verus/pull/2098",
+      "user": "mkovaxx",
+      "repo": "verus-lang/verus",
+      "state": "merged",
+      "createdAt": "2026-01-21"
+    },
+    {
+      "number": 2071,
+      "title": "[cargo-verus] test: cases to detect metadata ingestion issues",
+      "url": "https://github.com/verus-lang/verus/pull/2071",
+      "user": "mkovaxx",
+      "repo": "verus-lang/verus",
+      "state": "merged",
+      "createdAt": "2026-01-08"
+    },
+    {
+      "number": 2050,
+      "title": "[cargo-verus] fix: arg forwarding",
+      "url": "https://github.com/verus-lang/verus/pull/2050",
+      "user": "mkovaxx",
+      "repo": "verus-lang/verus",
+      "state": "merged",
+      "createdAt": "2025-12-20"
+    },
+    {
+      "number": 2049,
+      "title": "[cargo-verus] feat: `focus` subcommand",
+      "url": "https://github.com/verus-lang/verus/pull/2049",
+      "user": "mkovaxx",
+      "repo": "verus-lang/verus",
+      "state": "merged",
+      "createdAt": "2025-12-20"
+    },
+    {
+      "number": 2033,
+      "title": "refactor: cargo-verus to use clap and reorganize internals",
+      "url": "https://github.com/verus-lang/verus/pull/2033",
+      "user": "mkovaxx",
+      "repo": "verus-lang/verus",
+      "state": "merged",
+      "createdAt": "2025-12-09"
+    },
+    {
+      "number": 2029,
+      "title": "test: add integration tests for `cargo verus verify`",
+      "url": "https://github.com/verus-lang/verus/pull/2029",
+      "user": "mkovaxx",
+      "repo": "verus-lang/verus",
+      "state": "merged",
+      "createdAt": "2025-12-05"
+    },
+    {
+      "number": 36966,
+      "title": "chore: remove superfluous `clearExcept` call",
+      "url": "https://github.com/leanprover-community/mathlib4/pull/36966",
+      "user": "oliver-butterley",
+      "repo": "leanprover-community/mathlib4",
+      "state": "merged",
+      "createdAt": "2026-03-21"
+    },
+    {
+      "number": 36961,
+      "title": "chore(AlgebraicGeometry): remove use of `clear*-` from `isClosedMap_iff_specializingMap`",
+      "url": "https://github.com/leanprover-community/mathlib4/pull/36961",
+      "user": "oliver-butterley",
+      "repo": "leanprover-community/mathlib4",
+      "state": "merged",
+      "createdAt": "2026-03-21"
+    },
+    {
+      "number": 36723,
+      "title": "fix(`ClearExcept`): modify so that each `isAuxDecl` is retained",
+      "url": "https://github.com/leanprover-community/mathlib4/pull/36723",
+      "user": "oliver-butterley",
+      "repo": "leanprover-community/mathlib4",
+      "state": "merged",
+      "createdAt": "2026-03-16"
+    }
+  ],
+  "issueItems": [
+    {
+      "number": 1195,
+      "title": "Aeneas has hard crash related to certain GATs",
+      "url": "https://github.com/AeneasVerif/aeneas/issues/1195",
+      "user": "oliver-butterley",
+      "repo": "AeneasVerif/aeneas",
+      "state": "open",
+      "createdAt": "2026-07-09"
+    },
+    {
+      "number": 1193,
+      "title": "Trait method of a reference-parameterized trait passed to `.map` is \"Unimplemented\"",
+      "url": "https://github.com/AeneasVerif/aeneas/issues/1193",
+      "user": "oliver-butterley",
+      "repo": "AeneasVerif/aeneas",
+      "state": "open",
+      "createdAt": "2026-07-08"
+    },
+    {
+      "number": 1192,
+      "title": "Second loop zipping two mutable slice iterators",
+      "url": "https://github.com/AeneasVerif/aeneas/issues/1192",
+      "user": "oliver-butterley",
+      "repo": "AeneasVerif/aeneas",
+      "state": "open",
+      "createdAt": "2026-07-07"
+    },
+    {
+      "number": 1163,
+      "title": "Lean keywords used as function names aren't escaped",
+      "url": "https://github.com/AeneasVerif/aeneas/issues/1163",
+      "user": "oliver-butterley",
+      "repo": "AeneasVerif/aeneas",
+      "state": "open",
+      "createdAt": "2026-06-24"
+    },
+    {
+      "number": 1160,
+      "title": "translate.json contains machine specific paths",
+      "url": "https://github.com/AeneasVerif/aeneas/issues/1160",
+      "user": "oliver-butterley",
+      "repo": "AeneasVerif/aeneas",
+      "state": "closed",
+      "createdAt": "2026-06-24"
+    },
+    {
+      "number": 1124,
+      "title": "Feature request: use `Types.lean` only for items from the current crate, move defintions related to other crates to other files",
+      "url": "https://github.com/AeneasVerif/aeneas/issues/1124",
+      "user": "oliver-butterley",
+      "repo": "AeneasVerif/aeneas",
+      "state": "open",
+      "createdAt": "2026-06-13"
+    },
+    {
+      "number": 1123,
+      "title": "Improve the namespacing in `Types.lean` and `Funs.lean` for structure and axiom from foreign crates",
+      "url": "https://github.com/AeneasVerif/aeneas/issues/1123",
+      "user": "oliver-butterley",
+      "repo": "AeneasVerif/aeneas",
+      "state": "open",
+      "createdAt": "2026-06-13"
+    },
+    {
+      "number": 1051,
+      "title": "ZeroablePrimitive trait gets duplicate parentClauses name when two supertraits are the same trait",
+      "url": "https://github.com/AeneasVerif/aeneas/issues/1051",
+      "user": "oliver-butterley",
+      "repo": "AeneasVerif/aeneas",
+      "state": "open",
+      "createdAt": "2026-05-21"
+    },
+    {
+      "number": 1046,
+      "title": "FnOnce problem: `call_once` return type is `Result (closure state)` instead of `Result Unit`",
+      "url": "https://github.com/AeneasVerif/aeneas/issues/1046",
+      "user": "oliver-butterley",
+      "repo": "AeneasVerif/aeneas",
+      "state": "open",
+      "createdAt": "2026-05-20"
+    },
+    {
+      "number": 1044,
+      "title": "Tuple field assignment with opaque function generates `()` instead of second return value in loop body",
+      "url": "https://github.com/AeneasVerif/aeneas/issues/1044",
+      "user": "oliver-butterley",
+      "repo": "AeneasVerif/aeneas",
+      "state": "closed",
+      "createdAt": "2026-05-20"
+    },
+    {
+      "number": 1043,
+      "title": "Iterator trait impl generates `map :=` and `collect :=` fields",
+      "url": "https://github.com/AeneasVerif/aeneas/issues/1043",
+      "user": "oliver-butterley",
+      "repo": "AeneasVerif/aeneas",
+      "state": "open",
+      "createdAt": "2026-05-20"
+    },
+    {
+      "number": 1022,
+      "title": "Regression with new do elaborator",
+      "url": "https://github.com/AeneasVerif/aeneas/issues/1022",
+      "user": "oliver-butterley",
+      "repo": "AeneasVerif/aeneas",
+      "state": "closed",
+      "createdAt": "2026-05-13"
+    },
+    {
+      "number": 920,
+      "title": "scalar `Eq` generates `=` (Prop) instead of `==` (Bool) in Lean backend",
+      "url": "https://github.com/AeneasVerif/aeneas/issues/920",
+      "user": "oliver-butterley",
+      "repo": "AeneasVerif/aeneas",
+      "state": "open",
+      "createdAt": "2026-04-08"
+    },
+    {
+      "number": 903,
+      "title": "`Ord` instance for local type placed in Funs.lean but referenced from Types.lean",
+      "url": "https://github.com/AeneasVerif/aeneas/issues/903",
+      "user": "oliver-butterley",
+      "repo": "AeneasVerif/aeneas",
+      "state": "closed",
+      "createdAt": "2026-04-02"
+    },
+    {
+      "number": 902,
+      "title": "circular dependency between Types and TypesExternal",
+      "url": "https://github.com/AeneasVerif/aeneas/issues/902",
+      "user": "oliver-butterley",
+      "repo": "AeneasVerif/aeneas",
+      "state": "closed",
+      "createdAt": "2026-04-02"
+    },
+    {
+      "number": 816,
+      "title": "Bug: Wrapping shifts (`OWrap`) produce undefined `U64.shr` / `U64.shl` in Lean output",
+      "url": "https://github.com/AeneasVerif/aeneas/issues/816",
+      "user": "oliver-butterley",
+      "repo": "AeneasVerif/aeneas",
+      "state": "closed",
+      "createdAt": "2026-02-28"
+    },
+    {
+      "number": 815,
+      "title": "Bug: incorrect return type for globals referencing fallible globals",
+      "url": "https://github.com/AeneasVerif/aeneas/issues/815",
+      "user": "oliver-butterley",
+      "repo": "AeneasVerif/aeneas",
+      "state": "closed",
+      "createdAt": "2026-02-27"
+    },
+    {
+      "number": 784,
+      "title": "Default trait methods from foreign crates generate duplicate opaque axioms, one for each local type",
+      "url": "https://github.com/AeneasVerif/aeneas/issues/784",
+      "user": "oliver-butterley",
+      "repo": "AeneasVerif/aeneas",
+      "state": "closed",
+      "createdAt": "2026-02-19"
+    },
+    {
+      "number": 778,
+      "title": "`progress` timeout after a spec with expensive postconditions",
+      "url": "https://github.com/AeneasVerif/aeneas/issues/778",
+      "user": "oliver-butterley",
+      "repo": "AeneasVerif/aeneas",
+      "state": "closed",
+      "createdAt": "2026-02-17"
+    },
+    {
+      "number": 776,
+      "title": "Bug:  `-all-computable` flag has no effect",
+      "url": "https://github.com/AeneasVerif/aeneas/issues/776",
+      "user": "oliver-butterley",
+      "repo": "AeneasVerif/aeneas",
+      "state": "closed",
+      "createdAt": "2026-02-16"
+    },
+    {
+      "number": 769,
+      "title": "Spurious Aeneas warning on opaque types without region parameters",
+      "url": "https://github.com/AeneasVerif/aeneas/issues/769",
+      "user": "oliver-butterley",
+      "repo": "AeneasVerif/aeneas",
+      "state": "closed",
+      "createdAt": "2026-02-13"
+    },
+    {
+      "number": 767,
+      "title": "Name clash bug when struct constructor is passed as a function pointer",
+      "url": "https://github.com/AeneasVerif/aeneas/issues/767",
+      "user": "oliver-butterley",
+      "repo": "AeneasVerif/aeneas",
+      "state": "open",
+      "createdAt": "2026-02-13"
+    },
+    {
+      "number": 765,
+      "title": "Aeneas extraction regression: \"Region ids should not be visited directly\"",
+      "url": "https://github.com/AeneasVerif/aeneas/issues/765",
+      "user": "oliver-butterley",
+      "repo": "AeneasVerif/aeneas",
+      "state": "open",
+      "createdAt": "2026-02-12"
+    },
+    {
+      "number": 641,
+      "title": "Bug: Error extracting function which could be extracted properly before the latest updates",
+      "url": "https://github.com/AeneasVerif/aeneas/issues/641",
+      "user": "oliver-butterley",
+      "repo": "AeneasVerif/aeneas",
+      "state": "closed",
+      "createdAt": "2025-11-17"
+    },
+    {
+      "number": 622,
+      "title": "Extracted lean is missing some required parenthesis",
+      "url": "https://github.com/AeneasVerif/aeneas/issues/622",
+      "user": "oliver-butterley",
+      "repo": "AeneasVerif/aeneas",
+      "state": "closed",
+      "createdAt": "2025-10-16"
+    },
+    {
+      "number": 1298,
+      "title": "Feature request: normalized paths also when source file is created during build",
+      "url": "https://github.com/AeneasVerif/charon/issues/1298",
+      "user": "oliver-butterley",
+      "repo": "AeneasVerif/charon",
+      "state": "open",
+      "createdAt": "2026-06-25"
+    },
+    {
+      "number": 1270,
+      "title": "Unexpected behaviour concerning traits when using -start-from-pub. Is this really intended?",
+      "url": "https://github.com/AeneasVerif/charon/issues/1270",
+      "user": "oliver-butterley",
+      "repo": "AeneasVerif/charon",
+      "state": "closed",
+      "createdAt": "2026-06-05"
+    },
+    {
+      "number": 1079,
+      "title": "Docs: add clarification to `what_charon_translates.md`",
+      "url": "https://github.com/AeneasVerif/charon/issues/1079",
+      "user": "oliver-butterley",
+      "repo": "AeneasVerif/charon",
+      "state": "closed",
+      "createdAt": "2026-04-01"
+    },
+    {
+      "number": 1068,
+      "title": "Bug: very long run time and many errors extracting `spqr::kdf`",
+      "url": "https://github.com/AeneasVerif/charon/issues/1068",
+      "user": "oliver-butterley",
+      "repo": "AeneasVerif/charon",
+      "state": "closed",
+      "createdAt": "2026-03-17"
+    },
+    {
+      "number": 1065,
+      "title": "Bug: Exponential slowdown translating `generic-array` with typenum (blocks RustCrypto crates)",
+      "url": "https://github.com/AeneasVerif/charon/issues/1065",
+      "user": "oliver-butterley",
+      "repo": "AeneasVerif/charon",
+      "state": "closed",
+      "createdAt": "2026-03-14"
+    },
+    {
+      "number": 1041,
+      "title": "Bug: `reconstruct_fallible_operations` fails to promote shifts assigned through dereferenced pointers",
+      "url": "https://github.com/AeneasVerif/charon/issues/1041",
+      "user": "oliver-butterley",
+      "repo": "AeneasVerif/charon",
+      "state": "open",
+      "createdAt": "2026-02-28"
+    },
+    {
+      "number": 956,
+      "title": "Feature request: Support trait implementations in `--start-from`",
+      "url": "https://github.com/AeneasVerif/charon/issues/956",
+      "user": "oliver-butterley",
+      "repo": "AeneasVerif/charon",
+      "state": "closed",
+      "createdAt": "2025-12-29"
+    },
+    {
+      "number": 897,
+      "title": "Bug: Machine specific comments in extracted code",
+      "url": "https://github.com/AeneasVerif/charon/issues/897",
+      "user": "oliver-butterley",
+      "repo": "AeneasVerif/charon",
+      "state": "closed",
+      "createdAt": "2025-11-17"
+    },
+    {
+      "number": 2635,
+      "title": "`cargo verus new` should detect running inside a workspace",
+      "url": "https://github.com/verus-lang/verus/issues/2635",
+      "user": "mkovaxx",
+      "repo": "verus-lang/verus",
+      "state": "open",
+      "createdAt": "2026-07-08"
+    },
+    {
+      "number": 2571,
+      "title": "`vargo fmt` wants `break;` to be `break ;`",
+      "url": "https://github.com/verus-lang/verus/issues/2571",
+      "user": "mkovaxx",
+      "repo": "verus-lang/verus",
+      "state": "closed",
+      "createdAt": "2026-06-17"
+    },
+    {
+      "number": 2354,
+      "title": "docs: document consolidated `custom_err` attribute",
+      "url": "https://github.com/verus-lang/verus/issues/2354",
+      "user": "mkovaxx",
+      "repo": "verus-lang/verus",
+      "state": "closed",
+      "createdAt": "2026-04-20"
+    },
+    {
+      "number": 2181,
+      "title": "fix: eliminate `proof_note` attribute syntax quirks",
+      "url": "https://github.com/verus-lang/verus/issues/2181",
+      "user": "mkovaxx",
+      "repo": "verus-lang/verus",
+      "state": "closed",
+      "createdAt": "2026-02-14"
+    },
+    {
+      "number": 2157,
+      "title": "feat: mode to require `proof_note` labels",
+      "url": "https://github.com/verus-lang/verus/issues/2157",
+      "user": "mkovaxx",
+      "repo": "verus-lang/verus",
+      "state": "open",
+      "createdAt": "2026-02-08"
+    },
+    {
+      "number": 2156,
+      "title": "feat: enforce uniqueness of `proof_note` labels",
+      "url": "https://github.com/verus-lang/verus/issues/2156",
+      "user": "mkovaxx",
+      "repo": "verus-lang/verus",
+      "state": "open",
+      "createdAt": "2026-02-08"
+    },
+    {
+      "number": 2155,
+      "title": "feat: change `--no-cheating` mode not to fail fast",
+      "url": "https://github.com/verus-lang/verus/issues/2155",
+      "user": "mkovaxx",
+      "repo": "verus-lang/verus",
+      "state": "closed",
+      "createdAt": "2026-02-08"
+    },
+    {
+      "number": 2154,
+      "title": "feat: JSON output labels of failed obligations (`proof_note`)",
+      "url": "https://github.com/verus-lang/verus/issues/2154",
+      "user": "mkovaxx",
+      "repo": "verus-lang/verus",
+      "state": "closed",
+      "createdAt": "2026-02-08"
+    },
+    {
+      "number": 2153,
+      "title": "feat: JSON output labels of all obligations (`proof_note`)",
+      "url": "https://github.com/verus-lang/verus/issues/2153",
+      "user": "mkovaxx",
+      "repo": "verus-lang/verus",
+      "state": "closed",
+      "createdAt": "2026-02-08"
+    },
+    {
+      "number": 2152,
+      "title": "feat: show proof obligation labels in error messages",
+      "url": "https://github.com/verus-lang/verus/issues/2152",
+      "user": "mkovaxx",
+      "repo": "verus-lang/verus",
+      "state": "closed",
+      "createdAt": "2026-02-08"
+    },
+    {
+      "number": 2151,
+      "title": "feat: support `proof_note` labels",
+      "url": "https://github.com/verus-lang/verus/issues/2151",
+      "user": "mkovaxx",
+      "repo": "verus-lang/verus",
+      "state": "closed",
+      "createdAt": "2026-02-08"
+    },
+    {
+      "number": 2150,
+      "title": "feat: Proof Obligation Labels",
+      "url": "https://github.com/verus-lang/verus/issues/2150",
+      "user": "mkovaxx",
+      "repo": "verus-lang/verus",
+      "state": "closed",
+      "createdAt": "2026-02-08"
+    },
+    {
+      "number": 2149,
+      "title": "feat: relax grammar to allow omitting parens around blocks in specs",
+      "url": "https://github.com/verus-lang/verus/issues/2149",
+      "user": "mkovaxx",
+      "repo": "verus-lang/verus",
+      "state": "closed",
+      "createdAt": "2026-02-08"
+    },
+    {
+      "number": 2069,
+      "title": "[cargo-verus] test: extend tests to cover multiple crates with the same name",
+      "url": "https://github.com/verus-lang/verus/issues/2069",
+      "user": "mkovaxx",
+      "repo": "verus-lang/verus",
+      "state": "closed",
+      "createdAt": "2026-01-08"
+    },
+    {
+      "number": 2068,
+      "title": "[cargo-verus] refactor to allow end-to-end testing without running a child process",
+      "url": "https://github.com/verus-lang/verus/issues/2068",
+      "user": "mkovaxx",
+      "repo": "verus-lang/verus",
+      "state": "open",
+      "createdAt": "2026-01-08"
+    },
+    {
+      "number": 36722,
+      "title": "`ClearExcept` (`clear * -`) clears invisible auxiliary declarations (`isAuxDecl`) including recursive hypotheses",
+      "url": "https://github.com/leanprover-community/mathlib4/issues/36722",
+      "user": "oliver-butterley",
+      "repo": "leanprover-community/mathlib4",
+      "state": "closed",
+      "createdAt": "2026-03-16"
+    }
+  ]
+}
